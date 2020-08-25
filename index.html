@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="./dropzone-5.7.0/dist/dropzone.js"></script>
+    </head>
+   
+      
+    
+      <h1>Do U HAVE KANYE</h1> 
+      <img id="myImg" src="http://127.0.0.1:8080/ModelWestKardashian/kanye.jpg" width="256" height="256" crossorigin="anonymous">
+      <script src="./path/to/dropzone.js"></script>
+
+      <form action="upload" class="dropzone needsclick dz-clickable" method="post" enctype="multipart/form-data">
+       <div class="d"></div>
+        <input type="file" name="image" />
+        <button type="submit">upload</button>
+      </form>
+      <!-- <form class="box" method="post" action="/upload" enctype="multipart/form-data">
+        <div class="box__input">
+          <input class="box__file" type="file" name="files[]" id="file" data-multiple-caption="{count} files selected" multiple />
+          <label for="file"><strong>Choose a file</strong><span class="box__dragndrop"> or drag it here</span>.</label>
+          <button class="box__button" type="submit">Upload</button>
+        </div>
+      </form> -->
+
+      <button onclick="loadModel()">IS THIS KANYE</button>
+      <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js" > </script>  
+        <script  src="loadModel.js"></script>
+      </body>
+</html>
